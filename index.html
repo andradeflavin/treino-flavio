@@ -1,0 +1,31 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ficha Treino - Mobile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Treino Hipertrofia - Flavio</div>
+    <div class="actions">
+      <button id="clear" class="small">Limpar ✓</button>
+      <button id="export" class="small">Exportar ✓</button>
+    </div>
+  </header>
+  <main class="container">
+    <section class="controls">
+      <input id="search" placeholder="Pesquisar exercício, técnica ou observação..." />
+      <div class="filters">
+        <select id="filter-treino"></select>
+        <select id="filter-grupo"></select>
+      </div>
+    </section>
+    <section id="cards" class="grid"></section>
+  </main>
+  <footer class="footer">Aplicativo estático | Dados embarcados | Use "Exportar" para salvar exercícios completos</footer>
+  <script src="app.js"></script>
+</body>
+</html>
